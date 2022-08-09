@@ -25,5 +25,4 @@ function getRandomHexColor() {
   })
 
   destroyBtn.addEventListener('click', () => {
-    boxesEl.innerHTML = ''
-  })
+    boxesEl.innerHTML = ''})
