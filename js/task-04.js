@@ -9,13 +9,10 @@ inkrBtn.addEventListener('click', event => {
   
   valueEl += 1;
 
-  counterValue.innerText = valueEl;
-});
+  counterValue.innerText = valueEl;});
 
 dekrBtn.addEventListener('click', event => {
   
   valueEl -= 1;
 
-  counterValue.innerText = valueEl;
- 
-});
+  counterValue.innerText = valueEl;});
