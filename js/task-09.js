@@ -16,5 +16,4 @@ function onChangeColorBtn(event) {
 const newColor = getRandomHexColor()
   bodyEl.style.backgroundColor = newColor
   colorValue.innerHTML = `${newColor}`
-  console.log(newColor);
-}
+  console.log(newColor);}
