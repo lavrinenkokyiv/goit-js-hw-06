@@ -12,5 +12,4 @@ function setOutput(evt) {
         return alert ('Заповніть всі поля');
     }
     console.log(`Email: ${email.value}, Password: ${password.value}`);
-    evt.currentTarget.reset();
-}
+    evt.currentTarget.reset();}
